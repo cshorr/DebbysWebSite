@@ -1,0 +1,50 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+out/
+.cache/
+.tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files (API keys, secrets)
+.env
+.env.local
+.env.*.local
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+
+# VSCode (if you ever open project there)
+.vscode/
+
+# Coverage / testing
+coverage/
+.nyc_output/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Optional lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
